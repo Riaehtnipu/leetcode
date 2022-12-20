@@ -1,5 +1,7 @@
 package algorithm.offer.q6;
 
+import algorithm.offer.common.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,11 +14,6 @@ import java.util.List;
  * }
  */
 class Solution {
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
 
     // public int[] reversePrint(ListNode head) {
     //     if (head == null) {
