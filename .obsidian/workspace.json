@@ -1,0 +1,303 @@
+{
+  "main": {
+    "id": "9ff89b4557ecd12b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9940059ed8c074f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "451e7d87662d0ac1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48603a53c16605ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "剑指Offer/剑指Offer 03.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0a9bb2bd968c213",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "剑指Offer/剑指Offer 05.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87af03614b81aa8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "剑指Offer/剑指Offer 06.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be1b5e0be1362b5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "剑指Offer/剑指Offer 24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "843c7e50a67b7876",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "剑指Offer/剑指Offer 30.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b002307cd2e0c12f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "剑指Offer/剑指Offer 64.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6425d0225ba520f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "剑指Offer/剑指Offer 09.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c9dc56cae4a9f4b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "92dc68e9141257a2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "ef0d5329587ce46d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "9ded2883f7221b7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69e16a0507e16a52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "剑指Offer/剑指Offer 64.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 12
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c08d190bc49c7954",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b529e45a351d55f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81f963cc8d084afc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4a3f24a6ada66ef5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6d7dfdf8e58c4c07",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "af3e4095f73167d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa570fef72dcb880",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ff2d675f9ebaad4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "剑指Offer/剑指Offer 64.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "096c5d42481faa99",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "剑指Offer/剑指Offer 64.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "14f6903023608222",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6425bb356f90beb3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "剑指Offer/剑指Offer 64.md"
+              }
+            }
+          },
+          {
+            "id": "e6693bd0bdaeadb5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 394.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "69e16a0507e16a52",
+  "lastOpenFiles": [
+    "template/题解模板.md",
+    "剑指Offer/剑指Offer 64.md",
+    "剑指Offer/剑指Offer 03.md",
+    "剑指Offer/剑指Offer 05.md",
+    "剑指Offer/剑指Offer 09.md",
+    "剑指Offer/剑指Offer 24.md",
+    "剑指Offer/剑指Offer 30.md",
+    "剑指Offer/剑指Offer 06.md",
+    "README.md",
+    "剑指Offer/剑指Offer 03 1 1 1 1 1 1 1 1 1 1.md"
+  ]
+}
