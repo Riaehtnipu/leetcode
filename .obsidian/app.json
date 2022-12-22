@@ -12,5 +12,6 @@
     "en-CA",
     "en-AU"
   ],
-  "attachmentFolderPath": "attachment"
+  "attachmentFolderPath": "attachment",
+  "alwaysUpdateLinks": true
 }
