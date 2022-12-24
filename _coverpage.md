@@ -1,5 +1,5 @@
 
-<h1 align="center">docsify-blog</h1>
+<h1 align="center">leetcode</h1>
 
 [常用资源](https://www.r2coding.com/#/)
 [GitHub](https://github.com/Riaehtnipu)
