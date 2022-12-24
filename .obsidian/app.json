@@ -13,5 +13,7 @@
     "en-AU"
   ],
   "attachmentFolderPath": "attachment",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "autoConvertHtml": false
 }
