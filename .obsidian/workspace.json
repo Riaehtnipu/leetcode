@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_sidebar.md",
+                "file": "docs/剑指Offer/剑指Offer03.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "126d91a77dd1a5b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/剑指Offer/剑指Offer15.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_sidebar.md",
+                "file": "docs/剑指Offer/剑指Offer15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_sidebar.md",
+                "file": "docs/剑指Offer/剑指Offer15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_sidebar.md"
+                "file": "docs/剑指Offer/剑指Offer15.md"
               }
             }
           },
@@ -153,17 +166,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d19f079966af89f3",
+  "active": "126d91a77dd1a5b0",
   "lastOpenFiles": [
-    "README.md",
+    "docs/剑指Offer/剑指Offer09.md",
+    "docs/剑指Offer/剑指Offer15.md",
+    "docs/剑指Offer/剑指Offer03.md",
+    "docs/剑指Offer/剑指Offer64.md",
     "_sidebar.md",
+    "README.md",
     "docs/剑指Offer/剑指Offer05.md",
     "template/题解模板.md",
     "_coverpage.md",
-    "docs/实用软件/软件存档.md",
-    "docs/方案设计/如何管理笔记.md",
-    "docs/环境搭建/使用docsify搭建博客.md",
-    "docs/环境搭建/使用vuepress搭建博客.md",
-    "docs/环境搭建/图床的搭建.md"
+    "docs/实用软件/软件存档.md"
   ]
 }
