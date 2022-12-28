@@ -11,48 +11,32 @@
             "id": "d19f079966af89f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/剑指Offer/剑指Offer03.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "126d91a77dd1a5b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/剑指Offer/剑指Offer25.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "9247f0b59431e933",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/题库/704. 二分查找.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "60b1193828432846",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/题库/34. 在排序数组中查找元素的第一个和最后一个位置.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -73,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 53 - I. 在排序数组中查找数字 I.md",
+                "file": "_sidebar.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 53 - I. 在排序数组中查找数字 I.md",
+                "file": "_sidebar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 53 - I. 在排序数组中查找数字 I.md",
+                "file": "_sidebar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 53 - I. 在排序数组中查找数字 I.md"
+                "file": "_sidebar.md"
               }
             }
           },
@@ -216,15 +200,15 @@
   },
   "active": "9070833448459e6f",
   "lastOpenFiles": [
-    "docs/剑指Offer/剑指 Offer 53 - II. 0～n-1中缺失的数字.md",
+    "_coverpage.md",
+    "template/题解模板.md",
+    "_sidebar.md",
+    "README.md",
+    "docs/剑指Offer/剑指Offer03.md",
     "docs/剑指Offer/剑指 Offer 53 - I. 在排序数组中查找数字 I.md",
+    "docs/剑指Offer/剑指 Offer 53 - II. 0～n-1中缺失的数字.md",
     "docs/题库/34. 在排序数组中查找元素的第一个和最后一个位置.md",
     "docs/题库/704. 二分查找.md",
-    "template/题解模板.md",
-    "docs/剑指Offer/剑指Offer25.md",
-    "docs/剑指Offer/剑指Offer30.md",
-    "docs/剑指Offer/剑指Offer64.md",
-    "docs/剑指Offer/剑指Offer15.md",
-    "docs/剑指Offer/剑指Offer09.md"
+    "docs/剑指Offer/剑指Offer25.md"
   ]
 }
