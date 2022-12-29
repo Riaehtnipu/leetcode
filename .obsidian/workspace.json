@@ -47,12 +47,8 @@
             "id": "aa228bbba22eb963",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_sidebar.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -130,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_sidebar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +142,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_sidebar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +163,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_sidebar.md"
-              }
+              "state": {}
             }
           },
           {
@@ -198,10 +190,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aa228bbba22eb963",
+  "active": "81f963cc8d084afc",
   "lastOpenFiles": [
-    "README.md",
     "_sidebar.md",
+    "README.md",
     "docs/剑指Offer/剑指 Offer 24. 反转链表.md",
     "_coverpage.md",
     "docs/剑指Offer/剑指 Offer 03. 数组中重复的数字.md",
