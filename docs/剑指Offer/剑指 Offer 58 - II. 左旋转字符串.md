@@ -28,90 +28,24 @@
 ### 解法1
 ```java
 class Solution {
-    // public String reverseLeftWords(String s, int n) {
-    //     // 可以写完之后再看看这个有没有必要有，即参数校验最后看
-    //     if (s == null) {
-    //         return null;
-    //     }
-
-    //     StringBuilder pre = new StringBuilder();
-    //     StringBuilder res = new StringBuilder();
-    //     for (int i = 0; i < s.length(); i++) {
-    //         if (i < n) {
-    //             pre.append(s.charAt(i));
-    //         } else {
-    //             res.append(s.charAt(i));
-    //         }
-    //     }
-    //     return res.append(pre).toString();
-    // }
-
-    // // 简化版
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
-
-    //     StringBuilder res = new StringBuilder();
-    //     for (int i = n; i < s.length(); i++) {
-    //         res.append(s.charAt(i));
-    //     }
-    //     for (int i = 0; i < n; i++) {
-    //         res.append(s.charAt(i));
-    //     }
-    //     return res.toString();
-    // }
-
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
-    //     return s.substring(n, s.length()) + s.substring(0, n);
-    // }
-
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
-    //     return s.substring(n, s.length()) + s.substring(0, n);
-    // }
-
-
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
-
-    //     // 取余技巧
-    //     StringBuilder res = new StringBuilder();
-    //     for (int i = 0; i < s.length(); i++) {
-    //         res.append(s.charAt((i + n) % s.length()));
-    //     }
-    //     return res.toString();
-    // }
-
     public String reverseLeftWords(String s, int n) {
-        // 考虑一下可能的参数异常情况，题目的要求比较松
-        if (s == null || s.length() == 0 || n <= 0 || n >= s.length()) {
-            return s;
+        // 可以写完之后再看看这个有没有必要有，即参数校验最后看
+        if (s == null) {
+            return null;
         }
-        StringBuilder res = new StringBuilder(s);
-        // 出现越界直接不操作
-        reverse(res, 0, n - 1);
-        reverse(res, n, res.length() - 1);
-        reverse(res, 0 ,res.length() - 1);
-        return res.toString();
+
+        StringBuilder pre = new StringBuilder();
+        StringBuilder res = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            if (i < n) {
+                pre.append(s.charAt(i));
+            } else {
+                res.append(s.charAt(i));
+            }
+        }
+        return res.append(pre).toString();
     }
 
-    private void reverse(StringBuilder sb, int start, int end) {
-        while (start < end) {
-            char tmp = sb.charAt(start);
-            sb.setCharAt(start, sb.charAt(end));
-            sb.setCharAt(end, tmp);
-            start++;
-            end--;
-        }
-    }
 }
 ```
 
@@ -119,157 +53,64 @@ class Solution {
 ### 解法2
 ```java
 class Solution {
-    // public String reverseLeftWords(String s, int n) {
-    //     // 可以写完之后再看看这个有没有必要有，即参数校验最后看
-    //     if (s == null) {
-    //         return null;
-    //     }
 
-    //     StringBuilder pre = new StringBuilder();
-    //     StringBuilder res = new StringBuilder();
-    //     for (int i = 0; i < s.length(); i++) {
-    //         if (i < n) {
-    //             pre.append(s.charAt(i));
-    //         } else {
-    //             res.append(s.charAt(i));
-    //         }
-    //     }
-    //     return res.append(pre).toString();
-    // }
-
-    // // 简化版
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
-
-    //     StringBuilder res = new StringBuilder();
-    //     for (int i = n; i < s.length(); i++) {
-    //         res.append(s.charAt(i));
-    //     }
-    //     for (int i = 0; i < n; i++) {
-    //         res.append(s.charAt(i));
-    //     }
-    //     return res.toString();
-    // }
-
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
-    //     return s.substring(n, s.length()) + s.substring(0, n);
-    // }
-
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
-    //     return s.substring(n, s.length()) + s.substring(0, n);
-    // }
-
-
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
-
-    //     // 取余技巧
-    //     StringBuilder res = new StringBuilder();
-    //     for (int i = 0; i < s.length(); i++) {
-    //         res.append(s.charAt((i + n) % s.length()));
-    //     }
-    //     return res.toString();
-    // }
-
+    // 简化版
     public String reverseLeftWords(String s, int n) {
-        // 考虑一下可能的参数异常情况，题目的要求比较松
-        if (s == null || s.length() == 0 || n <= 0 || n >= s.length()) {
-            return s;
+        if (s == null) {
+            return null;
         }
-        StringBuilder res = new StringBuilder(s);
-        // 出现越界直接不操作
-        reverse(res, 0, n - 1);
-        reverse(res, n, res.length() - 1);
-        reverse(res, 0 ,res.length() - 1);
+
+        StringBuilder res = new StringBuilder();
+        for (int i = n; i < s.length(); i++) {
+            res.append(s.charAt(i));
+        }
+        for (int i = 0; i < n; i++) {
+            res.append(s.charAt(i));
+        }
         return res.toString();
     }
 
-    private void reverse(StringBuilder sb, int start, int end) {
-        while (start < end) {
-            char tmp = sb.charAt(start);
-            sb.setCharAt(start, sb.charAt(end));
-            sb.setCharAt(end, tmp);
-            start++;
-            end--;
-        }
-    }
+    
 }
 ```
 
 ### 解法3
 ```java
 class Solution {
-    // public String reverseLeftWords(String s, int n) {
-    //     // 可以写完之后再看看这个有没有必要有，即参数校验最后看
-    //     if (s == null) {
-    //         return null;
-    //     }
 
-    //     StringBuilder pre = new StringBuilder();
-    //     StringBuilder res = new StringBuilder();
-    //     for (int i = 0; i < s.length(); i++) {
-    //         if (i < n) {
-    //             pre.append(s.charAt(i));
-    //         } else {
-    //             res.append(s.charAt(i));
-    //         }
-    //     }
-    //     return res.append(pre).toString();
-    // }
+    public String reverseLeftWords(String s, int n) {
+        if (s == null) {
+            return null;
+        }
+        return s.substring(n, s.length()) + s.substring(0, n);
+    }
 
-    // // 简化版
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
+}
+```
 
-    //     StringBuilder res = new StringBuilder();
-    //     for (int i = n; i < s.length(); i++) {
-    //         res.append(s.charAt(i));
-    //     }
-    //     for (int i = 0; i < n; i++) {
-    //         res.append(s.charAt(i));
-    //     }
-    //     return res.toString();
-    // }
+### 解法4
+```java
+class Solution {
 
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
-    //     return s.substring(n, s.length()) + s.substring(0, n);
-    // }
+    public String reverseLeftWords(String s, int n) {
+        if (s == null) {
+            return null;
+        }
 
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
-    //     return s.substring(n, s.length()) + s.substring(0, n);
-    // }
+        // 取余技巧
+        StringBuilder res = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            res.append(s.charAt((i + n) % s.length()));
+        }
+        return res.toString();
+    }
 
+}
+```
 
-    // public String reverseLeftWords(String s, int n) {
-    //     if (s == null) {
-    //         return null;
-    //     }
-
-    //     // 取余技巧
-    //     StringBuilder res = new StringBuilder();
-    //     for (int i = 0; i < s.length(); i++) {
-    //         res.append(s.charAt((i + n) % s.length()));
-    //     }
-    //     return res.toString();
-    // }
+### 解法5
+```java
+class Solution {
 
     public String reverseLeftWords(String s, int n) {
         // 考虑一下可能的参数异常情况，题目的要求比较松
@@ -295,6 +136,4 @@ class Solution {
     }
 }
 ```
-
-
 

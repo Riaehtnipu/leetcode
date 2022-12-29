@@ -40,7 +40,9 @@ walkSync(curPath, function (filePath, stat) {
 				sidebarTxt += '- **' + relativeFilePathArr[i] + '**\n';
 			}
 			if (i == relativeFilePathArr.length - 1) {//输入md文件夹
-				sidebarTxt += '- [' + path.basename(relativeFilePathArr[i],".md") + '](' + relativeFilePath + ')\n';
+				//替换空格
+				var link = relativeFilePath.replace(/ +/g, '%20');
+				sidebarTxt += '- [' + path.basename(relativeFilePathArr[i],".md") + '](' + link + ')\n';
 			}
 
 		}

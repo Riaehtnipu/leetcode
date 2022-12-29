@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 18. 删除链表的节点.md",
+                "file": "docs/算法题库/34. 在排序数组中查找元素的第一个和最后一个位置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa228bbba22eb963",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/剑指Offer/剑指 Offer 24. 反转链表.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,12 +59,8 @@
             "id": "86681ff0a67c9232",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/剑指Offer/剑指 Offer 58 - II. 左旋转字符串.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -122,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 58 - II. 左旋转字符串.md",
+                "file": "docs/剑指Offer/剑指 Offer 24. 反转链表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 58 - II. 左旋转字符串.md",
+                "file": "docs/剑指Offer/剑指 Offer 24. 反转链表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 58 - II. 左旋转字符串.md"
+                "file": "docs/剑指Offer/剑指 Offer 24. 反转链表.md"
               }
             }
           },
@@ -190,17 +198,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "86681ff0a67c9232",
+  "active": "aa228bbba22eb963",
   "lastOpenFiles": [
-    "docs/剑指Offer/剑指 Offer 18. 删除链表的节点.md",
-    "docs/剑指Offer/剑指 Offer 50. 第一个只出现一次的字符.md",
-    "docs/剑指Offer/剑指 Offer 30. 包含min函数的栈.md",
-    "docs/剑指Offer/剑指 Offer 64. 求1+2+…+n.md",
-    "docs/剑指Offer/剑指 Offer 53 - II. 0～n-1中缺失的数字.md",
     "_sidebar.md",
+    "docs/剑指Offer/剑指 Offer 24. 反转链表.md",
     "_coverpage.md",
-    "template/题解模板.md",
-    "README.md",
-    "docs/剑指Offer/剑指Offer03.md"
+    "docs/剑指Offer/剑指 Offer 03. 数组中重复的数字.md",
+    "docs/剑指Offer/剑指Offer.md",
+    "docs/剑指Offer/剑指 Offer 52. 两个链表的第一个公共节点.md",
+    "docs/算法题库/160. 相交链表.md",
+    "docs/算法题库/34. 在排序数组中查找元素的第一个和最后一个位置.md",
+    "docs/剑指Offer/剑指.md",
+    "docs/剑指Offer/剑指 Offer 05. 替换空格.md"
   ]
 }
