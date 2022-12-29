@@ -1,4 +1,4 @@
-var sidebarTxt = '- [**123**](\README.md)\n';
+var sidebarTxt = '';
 var path = require('path');
 var curPath = path.resolve('./');
 var baseDirArr = [];
@@ -18,9 +18,10 @@ function walkSync(currentDirPath, callback) {
 }
 
 walkSync(curPath, function (filePath, stat) {
+	// 只看docs里面的
 	if (".md" == path.extname(filePath).toLowerCase()//后缀是.md
-		&& "_" != path.basename(filePath).substr(0, 1)
-		&& path.basename(filePath).includes(`.md`)) {
+		&& "_" != path.basename(filePath).substring(0, 1)
+		&& path.basename(filePath).includes(`.md`) && path.dirname(filePath).includes('docs')) {
 
 		var relativeFilePath = filePath.substr(curPath.length + 1);
 		if (relativeFilePath == path.basename(filePath)) {//如果最后的string和原来的一样
@@ -33,6 +34,12 @@ walkSync(curPath, function (filePath, stat) {
 				continue;
 			}
 			baseDirArr[i] = relativeFilePathArr[i]//记录
+
+			// 过滤docs的展示
+			if (relativeFilePathArr[i] == 'docs') {
+				continue;
+			}
+
 			for (var j = 0; j < i; j++) {
 				sidebarTxt += '  '
 			}

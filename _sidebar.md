@@ -1,9 +1,3 @@
-- [**123**](README.md)
-- **.obsidian**
-  - **plugins**
-    - **obsidian-proxy-github-master**
-      - [README](.obsidian/plugins/obsidian-proxy-github-master/README.md)
-- **docs**
   - **剑指Offer**
     - [剑指 Offer 03. 数组中重复的数字](docs/剑指Offer/剑指%20Offer%2003.%20数组中重复的数字.md)
     - [剑指 Offer 05. 替换空格](docs/剑指Offer/剑指%20Offer%2005.%20替换空格.md)
@@ -24,5 +18,3 @@
     - [160. 相交链表](docs/算法题库/160.%20相交链表.md)
     - [34. 在排序数组中查找元素的第一个和最后一个位置](docs/算法题库/34.%20在排序数组中查找元素的第一个和最后一个位置.md)
     - [704. 二分查找](docs/算法题库/704.%20二分查找.md)
-- **template**
-  - [题解模板](template/题解模板.md)

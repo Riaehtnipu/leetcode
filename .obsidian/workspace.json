@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 24. 反转链表.md",
+                "file": "_sidebar.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 24. 反转链表.md",
+                "file": "_sidebar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 24. 反转链表.md",
+                "file": "_sidebar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 24. 反转链表.md"
+                "file": "_sidebar.md"
               }
             }
           },
@@ -200,6 +200,7 @@
   },
   "active": "aa228bbba22eb963",
   "lastOpenFiles": [
+    "README.md",
     "_sidebar.md",
     "docs/剑指Offer/剑指 Offer 24. 反转链表.md",
     "_coverpage.md",
@@ -208,7 +209,6 @@
     "docs/剑指Offer/剑指 Offer 52. 两个链表的第一个公共节点.md",
     "docs/算法题库/160. 相交链表.md",
     "docs/算法题库/34. 在排序数组中查找元素的第一个和最后一个位置.md",
-    "docs/剑指Offer/剑指.md",
-    "docs/剑指Offer/剑指 Offer 05. 替换空格.md"
+    "docs/剑指Offer/剑指.md"
   ]
 }
