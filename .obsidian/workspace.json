@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "d521ff428d6d4316",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/剑指Offer/剑指 Offer 22. 链表中倒数第k个节点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "86681ff0a67c9232",
             "type": "leaf",
             "state": {
@@ -76,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 57. 和为s的两个数字.md",
+                "file": "docs/剑指Offer/剑指 Offer 22. 链表中倒数第k个节点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 57. 和为s的两个数字.md",
+                "file": "docs/剑指Offer/剑指 Offer 22. 链表中倒数第k个节点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 57. 和为s的两个数字.md"
+                "file": "docs/剑指Offer/剑指 Offer 22. 链表中倒数第k个节点.md"
               }
             }
           },
@@ -210,8 +222,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f722a9087dd1e1a3",
+  "active": "d521ff428d6d4316",
   "lastOpenFiles": [
+    "docs/剑指Offer/剑指 Offer 57. 和为s的两个数字.md",
     "docs/剑指Offer/剑指 Offer 03. 数组中重复的数字.md",
     "Pasted image 20221229004813.png",
     "_sidebar.md",
@@ -220,7 +233,6 @@
     "_coverpage.md",
     "docs/剑指Offer/剑指Offer.md",
     "docs/剑指Offer/剑指 Offer 52. 两个链表的第一个公共节点.md",
-    "docs/算法题库/160. 相交链表.md",
-    "docs/算法题库/34. 在排序数组中查找元素的第一个和最后一个位置.md"
+    "docs/算法题库/160. 相交链表.md"
   ]
 }

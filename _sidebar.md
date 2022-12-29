@@ -5,6 +5,7 @@
     - [剑指 Offer 09. 用两个栈实现队列](docs/剑指Offer/剑指%20Offer%2009.%20用两个栈实现队列.md)
     - [剑指 Offer 15. 二进制中1的个数](docs/剑指Offer/剑指%20Offer%2015.%20二进制中1的个数.md)
     - [剑指 Offer 18. 删除链表的节点](docs/剑指Offer/剑指%20Offer%2018.%20删除链表的节点.md)
+    - [剑指 Offer 22. 链表中倒数第k个节点](docs/剑指Offer/剑指%20Offer%2022.%20链表中倒数第k个节点.md)
     - [剑指 Offer 24. 反转链表](docs/剑指Offer/剑指%20Offer%2024.%20反转链表.md)
     - [剑指 Offer 25. 合并两个排序的链表](docs/剑指Offer/剑指%20Offer%2025.%20合并两个排序的链表.md)
     - [剑指 Offer 30. 包含min函数的栈](docs/剑指Offer/剑指%20Offer%2030.%20包含min函数的栈.md)
@@ -12,6 +13,7 @@
     - [剑指 Offer 52. 两个链表的第一个公共节点](docs/剑指Offer/剑指%20Offer%2052.%20两个链表的第一个公共节点.md)
     - [剑指 Offer 53 - I. 在排序数组中查找数字 I](docs/剑指Offer/剑指%20Offer%2053%20-%20I.%20在排序数组中查找数字%20I.md)
     - [剑指 Offer 53 - II. 0～n-1中缺失的数字](docs/剑指Offer/剑指%20Offer%2053%20-%20II.%200～n-1中缺失的数字.md)
+    - [剑指 Offer 57. 和为s的两个数字](docs/剑指Offer/剑指%20Offer%2057.%20和为s的两个数字.md)
     - [剑指 Offer 58 - II. 左旋转字符串](docs/剑指Offer/剑指%20Offer%2058%20-%20II.%20左旋转字符串.md)
     - [剑指 Offer 64. 求1+2+…+n](docs/剑指Offer/剑指%20Offer%2064.%20求1+2+…+n.md)
   - **算法题库**
