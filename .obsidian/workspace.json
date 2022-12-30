@@ -80,6 +80,41 @@
             }
           },
           {
+            "id": "2399b8cd7435fbe9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/数据库/175. 组合两个表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6c2ec527251daa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/数据库/181. 超过经理收入的员工.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "249b2744be1a58d4",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "docs/数据库/181. 超过经理收入的员工.md",
+                "staged": false
+              }
+            }
+          },
+          {
             "id": "86681ff0a67c9232",
             "type": "leaf",
             "state": {
@@ -88,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -154,7 +189,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 22. 链表中倒数第k个节点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +205,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/剑指Offer/剑指 Offer 22. 链表中倒数第k个节点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,9 +226,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/剑指Offer/剑指 Offer 22. 链表中倒数第k个节点.md"
-              }
+              "state": {}
             }
           },
           {
@@ -222,17 +253,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d521ff428d6d4316",
+  "active": "249b2744be1a58d4",
   "lastOpenFiles": [
+    "docs/数据库/182. 查找重复的电子邮箱.md",
+    "docs/数据库/181. 超过经理收入的员工.md",
+    "docs/数据库/175. 组合两个表.md",
+    "docs/剑指Offer/剑指 Offer 22. 链表中倒数第k个节点.md",
     "docs/剑指Offer/剑指 Offer 57. 和为s的两个数字.md",
     "docs/剑指Offer/剑指 Offer 03. 数组中重复的数字.md",
     "Pasted image 20221229004813.png",
     "_sidebar.md",
     "README.md",
-    "docs/剑指Offer/剑指 Offer 24. 反转链表.md",
-    "_coverpage.md",
-    "docs/剑指Offer/剑指Offer.md",
-    "docs/剑指Offer/剑指 Offer 52. 两个链表的第一个公共节点.md",
-    "docs/算法题库/160. 相交链表.md"
+    "docs/剑指Offer/剑指 Offer 24. 反转链表.md"
   ]
 }
